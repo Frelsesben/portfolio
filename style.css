@@ -1,10 +1,18 @@
 :root {
   --first-color: #724060;
   --second-color: #a070a1;
-  --thrid-color: #f8e7e7;
+  --third-color: #f8e7e7;
   --fourth-color: #fdf3f3;
   --fifth-color: #a12559;
   --sixth-color: #f1bbd5;
+  --border: 1px dashed #f1bbd5;
+}
+
+a,
+h1,
+h2,
+p {
+  text-align: center;
 }
 
 a {
@@ -16,7 +24,28 @@ a:hover {
 }
 
 body {
+  background: var(--second-color);
+  margin: 60px auto;
+  max-width: 700px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: var(--fourth-color);
+  padding: 20px 20px 10px 20px;
+}
+
+.link-sections {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background: var(--fourth-color);
+}
+
+#intro {
+  border: var(--border);
 }
 
 h1 {

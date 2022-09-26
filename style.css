@@ -1,0 +1,28 @@
+:root {
+  --first-color: #724060;
+  --second-color: #a070a1;
+  --thrid-color: #f8e7e7;
+  --fourth-color: #fdf3f3;
+  --fifth-color: #a12559;
+  --sixth-color: #f1bbd5;
+}
+
+a {
+  color: var(--second-color);
+}
+
+a:hover {
+  color: var(--sixth-color);
+}
+
+body {
+  background: var(--fourth-color);
+}
+
+h1 {
+  color: var(--first-color);
+}
+
+h2 {
+  color: var(--fifth-color);
+}

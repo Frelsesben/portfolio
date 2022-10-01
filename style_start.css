@@ -1,0 +1,118 @@
+:root {
+  --vanilla: #fbf6ef;
+  --warm-vanilla: #fbf4e1;
+  --taupe: #d4c2ad;
+  --blast-off-bronze: #ba8371ff;
+  --baby-pink: #e4babfff;
+  --mauvelous: #df9cadff;
+  --indian-red: #ca5c5cff;
+  --brandy: #913c3fff;
+  --opal: #cbdcd5ff;
+  --green-sheen: #7dbba8ff;
+  --mauve-taupe: #84586cff;
+}
+
+.highlight {
+  background: var(--indian-red);
+  color: white;
+  padding: 3px;
+}
+
+.highlight-2 {
+  background: var(--mauve-taupe);
+  color: white;
+  padding: 1px;
+}
+
+.highlight-3 {
+  background: var(--green-sheen);
+  color: white;
+  padding: 1px;
+}
+
+.highlight-4 {
+  background: var(--brandy);
+  color: white;
+  padding: 1px;
+}
+
+.projects-headline {
+  font-weight: 600;
+}
+
+a:link {
+  text-decoration: none;
+  color: var(--opal);
+}
+
+a:visited {
+  text-decoration: none;
+  color: var(--opal);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--blast-off-bronze);
+  font-style: italic;
+}
+
+a:active {
+  text-decoration: none;
+  color: var(--opal);
+}
+
+body {
+  background: var(--vanilla);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(10%);
+}
+
+h1 {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 100;
+  line-height: 1.6;
+}
+
+h3 {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 200;
+}
+
+h4 {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+  color: var(--blast-off-bronze);
+}
+
+details {
+  user-select: none;
+}
+
+details > summary span#expand-icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  margin-left: auto;
+}
+
+details[open] summary span#expand-icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  display: flex;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  color: var(--blast-off-bronze);
+}

@@ -8,13 +8,6 @@
   --border: 1px dashed #f1bbd5;
 }
 
-a,
-h1,
-h2,
-p {
-  text-align: center;
-}
-
 a {
   color: var(--second-color);
 }
@@ -35,6 +28,7 @@ body {
   justify-content: center;
   background: var(--fourth-color);
   padding: 20px 20px 10px 20px;
+  text-align: center;
 }
 
 .link-sections {
@@ -42,6 +36,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   background: var(--fourth-color);
+  text-align: center;
 }
 
 #intro {

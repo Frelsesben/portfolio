@@ -127,6 +127,14 @@ summary::-webkit-details-marker {
   color: var(--blast-off-bronze);
 }
 
-.container {
+#heading {
   padding-top: 30px;
+}
+
+#content {
+  padding-top: 10px;
+}
+
+#footer {
+  padding-top: 10px;
 }

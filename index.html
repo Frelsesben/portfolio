@@ -9,29 +9,75 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link rel="stylesheet" href="style.css" />
-    <title>Portfolio</title>
+    <title>🦥</title>
   </head>
   <body>
-    <div class="box">
-      <div class="container">
-        <h1 class="text-center">Frida Freiesleben</h1>
-        <h2 id="intro" class="text-center">
-          Project Assistant 🤹‍♀️ <br />
-          Novice Coder 👩‍💻 <br />
-          Based in Denmark 🇩🇰
-        </h2>
-      </div>
-      <div class="link-sections">
-        <button type="button" class="btn btn-link">
-          <a href="about.html">About</a>
-        </button>
-        <button type="button" class="btn btn-link">
-          <a href="about.html#contact">Find</a>
-        </button>
-      </div>
-      <div class="container">
-        <a href="https://fridafreiesleben.netlify.app/">🏠</a>
+    <div class="container">
+      <h1 class="text-uppercase text-center p-3">
+        Hello, my name is <span class="highlight">Frida</span>. I'm an
+        <span class="highlight">administrative generalist</span> by day,
+        <span class="highlight">novice coder</span> by night, and
+        <span class="highlight">animal rights advocate</span> sometime in
+        between.
+      </h1>
+    </div>
+    <div class="container text-center">
+      <div class="d-flex justify-content-evenly">
+        <div class="col-4">
+          <h3 class="text-uppercase text-center highlight-2">
+            Administrative Work
+          </h3>
+        </div>
+        <div class="col-4">
+          <h3 class="text-center text-uppercase highlight-3">
+            Front-End Coding
+          </h3>
+          <p class="d-flex flex-column">
+            <details>
+              <summary>
+                <h4 class="projects-headline">Projects</h4>
+                <span class="material-symbols-outlined" id="expand-icon">
+                  expand_circle_down
+                </span>
+              </summary>
+              <p>
+                <a
+                  href="https://frelsesben-vanilla-weather.netlify.app/"
+                  target="_blank"
+                  ><img src="media/project-vanillajs.png"
+                /></a>
+                <a
+                  href="https://frelsesben-react-weather.netlify.app/"
+                  target="_blank"
+                  ><img src="media/project-react1.png"
+                /></a>
+                <a
+                  href="https://frelsesben-react-dictionary.netlify.app/"
+                  target="_blank"
+                  ><img src="media/project-react2.png"
+                /></a>
+                 <h4 class="text-left font-italic">..And this website you're looking at right now, of course!</h4>
+              </p>
+            </details>
+             <h4 class="text-left">I'm a graduate from <a href="https://www.shecodes.io/graduates/37334-frida-freiesleben" target="_blank">SheCodes</a>. My projects are open-sourced on <a href="https://github.com/Frelsesben" target="_blank">GitHub</a>.</h4>
+          </p>
+        </div>
+        <div class="col-4">
+          <h3 class="text-uppercase text-center highlight-4">
+            Animal Advocacy
+          </h3>
+        </div>
       </div>
     </div>
   </body>

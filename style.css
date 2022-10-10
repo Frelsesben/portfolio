@@ -96,7 +96,7 @@ a.external-link:active {
 a.button-link:hover {
   text-decoration: none;
   color: white;
-  font-weight: bolder;
+  text-shadow: #fbf4e1 0 -1px;
 }
 
 body {

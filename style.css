@@ -36,13 +36,13 @@
   padding: 1px;
 }
 
-.highlight-5 {
-  background: var(--mauvelous);
+.highlight-6 {
+  background: var(--baby-pink);
   color: white;
   padding: 1px;
 }
 
-.highlight-6 {
+.highlight-5 {
   background: var(--taupe);
   color: white;
   padding: 1px;
@@ -174,7 +174,7 @@ summary::-webkit-details-marker {
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background: var(--indian-red);
+  background: var(--mauvelous);
   color: white;
   height: 50px;
   padding: 1em;
@@ -278,7 +278,7 @@ a.menu-link:hover {
     margin: 0;
     padding: 0.5em 0;
     width: 100%;
-    color: var(--indian-red);
-    background-color: #ca5c5cff;
+    color: var(--mauvelous);
+    background-color: #df9cadff;
   }
 }

@@ -30,12 +30,6 @@
   padding: 1px;
 }
 
-.highlight-4 {
-  background: var(--brandy);
-  color: white;
-  padding: 1px;
-}
-
 .highlight-6 {
   background: var(--baby-pink);
   color: white;
@@ -50,6 +44,7 @@
 
 .projects-headline {
   font-weight: 600;
+  text-decoration: underline;
 }
 
 a:link {
@@ -85,7 +80,6 @@ a.external-link:visited {
 a.external-link:hover {
   text-decoration: none;
   color: var(--blast-off-bronze);
-  font-style: italic;
 }
 
 a.external-link:active {
@@ -122,6 +116,14 @@ h4 {
   font-family: "Urbanist", sans-serif;
   font-weight: 400;
   color: var(--blast-off-bronze);
+}
+
+h5 {
+  font-family: "Urbanist", sans-serif;
+  font-weight: 400;
+  color: var(--blast-off-bronze);
+  padding-top: 15px;
+  text-align: left;
 }
 
 #heading {
@@ -163,7 +165,7 @@ summary::-webkit-details-marker {
 }
 
 .material-symbols-outlined {
-  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+  font-variation-settings: "FILL" 0, "wght" 700, "GRAD" 0, "opsz" 48;
   color: var(--blast-off-bronze);
 }
 
@@ -281,4 +283,39 @@ a.menu-link:hover {
     color: var(--mauvelous);
     background-color: #df9cadff;
   }
+}
+
+/* Skill bar from W3: "How TO - CSS Skill Bar" */
+
+.container-list {
+  width: 100%;
+  background-color: #fffdfa;
+}
+
+.skills {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.skills-1 {
+  width: 100%;
+  background-color: var(--brandy);
+}
+.skills-2 {
+  width: 95%;
+  background-color: var(--brandy);
+}
+.skills-3 {
+  width: 85%;
+  background-color: var(--brandy);
+}
+.skills-4 {
+  width: 80%;
+  background-color: var(--brandy);
+}
+
+.skills-5 {
+  width: 55%;
+  background-color: var(--brandy);
 }

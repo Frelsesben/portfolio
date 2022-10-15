@@ -104,7 +104,7 @@ body {
 }
 
 img {
-  filter: grayscale(10%);
+  padding-top: 10px;
 }
 
 h1 {

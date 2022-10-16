@@ -13,9 +13,17 @@
 }
 
 .highlight {
-  background: var(--indian-red);
+  background: linear-gradient(to bottom, #ca5c5cff 0%, #ca5c5cff 100%);
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 3px 4px;
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+
+.highlight:hover {
+  background-size: 4px 50px;
   color: white;
-  padding: 3px;
 }
 
 .highlight-2 {
@@ -43,8 +51,17 @@
 }
 
 .projects-headline {
-  font-weight: 600;
-  text-decoration: underline;
+  background: linear-gradient(to bottom, #cbdcd5ff 0%, #cbdcd5ff 100%);
+  background-position: 0 0%;
+  background-repeat: repeat-x;
+  background-size: 3px 3px;
+  color: var(--blast-off-bronze);
+  text-decoration: none;
+  transition: background-size 0.2s;
+}
+
+.projects-headline:hover {
+  background-size: 4px 50px;
 }
 
 a:link {
@@ -113,8 +130,7 @@ h3 {
 }
 
 h4 {
-  font-family: "Urbanist", sans-serif;
-  font-weight: 400;
+  font-family: "Albert Sans", sans-serif;
   color: var(--blast-off-bronze);
 }
 
@@ -124,6 +140,11 @@ h5 {
   color: var(--blast-off-bronze);
   padding-top: 10px;
   text-align: left;
+}
+
+h6 {
+  font-family: "Albert Sans", sans-serif;
+  font-size: 150%;
 }
 
 #heading {
@@ -136,6 +157,10 @@ h5 {
 
 #footer {
   padding-top: 10px;
+}
+
+#contact {
+  padding-bottom: 40px;
 }
 
 /* Expandable "Projects" feature on index page  */
@@ -299,19 +324,19 @@ a.menu-link:hover {
 }
 
 .skills-1 {
-  width: 100%;
+  width: 90%;
   background-color: var(--brandy);
 }
 .skills-2 {
-  width: 95%;
-  background-color: var(--brandy);
-}
-.skills-3 {
   width: 85%;
   background-color: var(--brandy);
 }
+.skills-3 {
+  width: 70%;
+  background-color: var(--brandy);
+}
 .skills-4 {
-  width: 80%;
+  width: 65%;
   background-color: var(--brandy);
 }
 

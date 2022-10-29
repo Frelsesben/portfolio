@@ -33,7 +33,7 @@
 }
 
 .highlight-3 {
-  background: var(--green-sheen);
+  background: var(--opal);
   color: white;
   padding: 1px;
 }
@@ -86,12 +86,12 @@ a:active {
 
 a.external-link:link {
   text-decoration: none;
-  color: var(--opal);
+  color: var(--green-sheen);
 }
 
 a.external-link:visited {
   text-decoration: none;
-  color: var(--opal);
+  color: var(--green-sheen);
 }
 
 a.external-link:hover {
@@ -147,7 +147,7 @@ h6 {
   font-size: 150%;
 }
 
-#heading {
+#about-heading {
   padding-top: 30px;
 }
 
